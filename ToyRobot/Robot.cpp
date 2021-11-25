@@ -94,9 +94,8 @@ char Robot::getDirectionArrow() {
 		return 'v';
 	case Direction::EAST:
 		return '>';
-	case Direction::WEST:
-		return '<';
 	}
+	return '<';
 }
 
 
